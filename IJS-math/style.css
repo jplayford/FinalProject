@@ -1,0 +1,7 @@
+body {
+}
+
+#title{
+  background: linear-gradient(to right,rgb(255, 107, 247), rgb(136, 45, 255));
+  text-align: center;
+}
