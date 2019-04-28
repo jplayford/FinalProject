@@ -1,4 +1,4 @@
-//Values for all  elements
+//Values for all jump elements
 var singleToe = 0.4;
 var singleSal = 0.4;
 var singleLoop = 0.5;
