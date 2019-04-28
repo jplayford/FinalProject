@@ -19,194 +19,78 @@ var tripleFlip = 5.3;
 var tripleLutz = 6.0;
 var tripleAxel = 8.5;
 
-
-//buttons with return values for all elements
-var button = document.createElement("button");
-button.innerHTML = "Single Toeloop";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
-  return singleToe;
-});
-
-var button = document.createElement("button");
-button.innerHTML = "Single Salchow";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("singleSalchow").onclick = function() {
   return singleSal;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Single Loop";
+document.getElementById("singleToe").onclick = function() {
+  return singleToe;
+};
 
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
-  return singleLoop;
-});
-
-var button = document.createElement("button");
-button.innerHTML = "Single Euler";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("singleEuler").onclick = function() {
   return singleEuler;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Single Flip";
+document.getElementById("singleLoop").onclick = function() {
+  return singleLoop;
+};
 
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("singleFlip").onclick = function() {
   return singleFlip;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Single Lutz";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("singleLutz").onclick = function() {
   return singleLutz;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Single Axel";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("singleAxel").onclick = function() {
   return singleAxel;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Double Toeloop";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
-  return doubleToe;
-});
-
-var button = document.createElement("button");
-button.innerHTML = "Double Salchow";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("doubleSalchow").onclick = function() {
   return doubleSal;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Double Loop";
+document.getElementById("doubleToe").onclick = function() {
+  return doubleToe;
+};
 
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("doubleLoop").onclick = function() {
   return doubleLoop;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Double Flip";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("doubleFlip").onclick = function() {
   return doubleFlip;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Double Lutz";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("doubleLutz").onclick = function() {
   return doubleLutz;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Double Axel";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("doubleAxel").onclick = function() {
   return doubleAxel;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Triple Toeloop";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
-  return tripleToe;
-});
-
-var button = document.createElement("button");
-button.innerHTML = "Triple Salchow";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("tripleSalchow").onclick = function() {
   return tripleSal;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Triple Loop";
+document.getElementById("tripleToe").onclick = function() {
+  return tripleToe;
+};
 
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("tripleLoop").onclick = function() {
   return tripleLoop;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Triple Flip";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("tripleFlip").onclick = function() {
   return tripleFlip;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Triple Lutz";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("tripleLutz").onclick = function() {
   return tripleLutz;
-});
+};
 
-var button = document.createElement("button");
-button.innerHTML = "Triple Axel";
-
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-button.addEventListener ("click", function() {
+document.getElementById("tripleAxel").onclick = function() {
   return tripleAxel;
-});
+};

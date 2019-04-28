@@ -1,3 +1,100 @@
 body {
-  background-color: purple;
+}
+
+#title{
+  background: linear-gradient(to right,rgb(255, 107, 247), rgb(136, 45, 255));
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+  font-family:cursive;
+}
+
+#singleSalchow{
+  font-family: cursive;
+}
+
+#singleToe{
+  font-family: cursive;
+}
+
+#singleEuler{
+  font-family: cursive;
+}
+
+#singleLoop{
+  font-family: cursive;
+}
+
+#singleEuler{
+  font-family: cursive;
+}
+
+#singleLoop{
+  font-family: cursive;
+}
+
+#singleFlip{
+  font-family: cursive;
+}
+
+#singleLutz{
+  font-family: cursive;
+}
+
+#singleAxel{
+  font-family: cursive;
+}
+
+#doubleSalchow{
+  font-family: cursive;
+}
+
+#doubleToe{
+  font-family: cursive;
+}
+
+#doubleLoop{
+  font-family: cursive;
+}
+
+#doubleFlip{
+  font-family: cursive;
+}
+
+#doubleLutz{
+  font-family: cursive;
+}
+
+#doubleAxel{
+  font-family: cursive;
+}
+
+#tripleSalchow{
+  font-family: cursive;
+}
+
+#tripleToe{
+  font-family: cursive;
+}
+
+#tripleLoop{
+  font-family: cursive;
+}
+
+#tripleFlip{
+  font-family: cursive;
+}
+
+#tripleLutz{
+  font-family: cursive;
+}
+
+#tripleAxel{
+  font-family: cursive;
+}
+
+#slash{
+  font-family: cursive;
 }
