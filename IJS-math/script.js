@@ -19,6 +19,8 @@ var tripleFlip = 5.3;
 var tripleLutz = 6.0;
 var tripleAxel = 8.5;
 
+//Creating return values for all buttons
+
 document.getElementById("singleSalchow").onclick = function() {
   return singleSal;
 };
@@ -94,3 +96,9 @@ document.getElementById("tripleLutz").onclick = function() {
 document.getElementById("tripleAxel").onclick = function() {
   return tripleAxel;
 };
+
+//calculating total Score
+
+function totalScore(){
+  
+}
