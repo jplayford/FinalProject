@@ -117,7 +117,3 @@ document.getElementById("tripleAxel").onclick = function() {
   totalScore = totalScore + tripleAxel;
   console.log(totalScore);
 };
-
-function finalScore(){
-  document.getElementById(totalScore);
-}
