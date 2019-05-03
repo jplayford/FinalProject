@@ -26,94 +26,119 @@ var totalScore = 0;
 document.getElementById("singleSalchow").onclick = function() {
   totalScore = totalScore + singleSal;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("singleToe").onclick = function() {
   totalScore = totalScore + singleToe;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("singleEuler").onclick = function() {
   totalScore = totalScore + singleEuler;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("singleLoop").onclick = function() {
   totalScore = totalScore + singleLoop;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("singleFlip").onclick = function() {
   totalScore = totalScore + singleFlip;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("singleLutz").onclick = function() {
   totalScore = totalScore + singleLutz;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("singleAxel").onclick = function() {
   totalScore = totalScore + singleAxel;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("doubleSalchow").onclick = function() {
   totalScore = totalScore + doubleSal;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("doubleToe").onclick = function() {
   totalScore = totalScore + doubleToe;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("doubleLoop").onclick = function() {
   totalScore = totalScore + doubleLoop;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("doubleFlip").onclick = function() {
   totalScore = totalScore + doubleFlip;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("doubleLutz").onclick = function() {
   totalScore = totalScore + doubleLutz;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("doubleAxel").onclick = function() {
   totalScore = totalScore + doubleAxel;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("tripleSalchow").onclick = function() {
   totalScore = totalScore + tripleSal;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("tripleToe").onclick = function() {
   totalScore = totalScore + tripleToe;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("tripleLoop").onclick = function() {
   totalScore = totalScore + tripleLoop;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("tripleFlip").onclick = function() {
   totalScore = totalScore + tripleFlip;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("tripleLutz").onclick = function() {
   totalScore = totalScore + tripleLutz;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("tripleAxel").onclick = function() {
   totalScore = totalScore + tripleAxel;
   console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
 };
+
+document.getElementById('calculate').onclick = totalScore;
+
+function finalScore() {
+  document.getElementById('totalScore').innerHTML = totalScore;
+}
