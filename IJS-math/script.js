@@ -18,8 +18,14 @@ var tripleLoop = 5.1;
 var tripleFlip = 5.3;
 var tripleLutz = 6.0;
 var tripleAxel = 8.5;
+var quadToe = 9.5;
+var quadSal = 9.7;
+var quadLoop = 10.5;
+var quadFlip = 11;
+var quadLutz = 11.5;
+var quadAxel = 12.5;
 var totalScore = 0;
-
+var fall = 1;
 //Creating return values for all buttons
 
 
@@ -133,6 +139,48 @@ document.getElementById("tripleLutz").onclick = function() {
 
 document.getElementById("tripleAxel").onclick = function() {
   totalScore = totalScore + tripleAxel;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("quadSalchow").onclick = function() {
+  totalScore = totalScore + quadSal;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("quadToe").onclick = function() {
+  totalScore = totalScore + quadToe;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("quadLoop").onclick = function() {
+  totalScore = totalScore + quadLoop;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("quadFlip").onclick = function() {
+  totalScore = totalScore + quadFlip;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("quadLutz").onclick = function() {
+  totalScore = totalScore + quadLutz;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("quadAxel").onclick = function() {
+  totalScore = totalScore + quadAxel;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("fall").onclick = function() {
+  totalScore = totalScore - fall;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
