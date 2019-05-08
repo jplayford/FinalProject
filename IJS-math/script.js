@@ -185,8 +185,6 @@ document.getElementById("fall").onclick = function() {
   document.getElementById('result').innerHTML = totalScore;
 };
 
-document.getElementById('calculate').onclick = totalScore;
-
 function finalScore() {
   document.getElementById('totalScore').innerHTML = totalScore;
 }

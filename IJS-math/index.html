@@ -12,8 +12,10 @@
   </head>
   <body>
 
-  <div id"jumpstable">
-    <table>
+<div class="tables">
+  <div class="container">
+<div class="floatLeft">
+    <table id="jumps">
       <tr>
           <th>Single Jumps</th>
           <th>Double Jumps</th>
@@ -63,27 +65,31 @@
           <td><button type="button" id="doubleAxel">Double Axel</button></td>
           <td><button type="button" id="tripleAxel">Triple Axel</button></td>
           <td><button type="button" id="quadAxel">Quad Axel</button></td>
-  </div>
-    </table>
-<div id="deductionstable">
-    <table>
+
+    </table id="jumps">
+</div class="floatLeft">
+<div class="floatRight">
+    <table id="deduction">
       <tr>
         <td>Deductions:</td>
         <td><button type="button" id="fall">Fall</button></td>
       </tr>
       <tr>
-        <td>Edge Calls:<td>
+        <td>Edge Calls:</td>
         <td><button type="button" id="edge">Single Lutz e</button></td>
         <td><button type="button" id="edge">Double Lutz e</button></td>
         <td><button type="button" id="edge">Triple Lutz e</button></td>
         <td><button type="button" id="edge">Quad Lutz e</button></td>
 
-    </table>
-  </div>
+    </table id="deduction">
+</div class="tables">
+</div class="floatRight">
+</div class="container">
 
-    <id="Total Score Answer">
-<h3>Final Score:</h3> <h3 id="result">0</h3>
-</id="Total Score Answer">
+
+    <div id="totalanswer">
+<h3>Final Score:</h3> <h3 id="result"> 0</h3>
+</div id="totalanswer">
 
  <script src="script.js"></script>
   </body>

@@ -1,3 +1,7 @@
+html{
+  background-color: rgb(230, 224, 255);
+}
+
 body {
 }
 
@@ -5,6 +9,9 @@ body {
   background: linear-gradient(to right,rgb(255, 107, 247), rgb(136, 45, 255));
   text-align: center;
 }
+.floatLeft { width: 50%; float: left; }
+.floatRight {width: 50%; float: right; }
+.container { overflow: hidden; }
 table, th, tr, td{
   border-collapse: collapse;
   font-family:cursive;
@@ -13,13 +20,13 @@ table, th, tr, td{
   padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-#jumpstable{
-  margin-left: auto;
-}
-#deductionstable{
-  margin: : auto;
+#totalanswer{
+
 }
 #fall{
   font-family: cursive;
