@@ -25,6 +25,10 @@ var quadFlip = 11;
 var quadLutz = 11.5;
 var quadAxel = 12.5;
 var totalScore = 0;
+var esingleL = 0.4;
+var edoubleL = 1.58;
+var etripleL = 4.43;
+var equadL = 8.63;
 var fall = 1;
 //Creating return values for all buttons
 
@@ -181,6 +185,30 @@ document.getElementById("quadAxel").onclick = function() {
 
 document.getElementById("fall").onclick = function() {
   totalScore = totalScore - fall;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("edgesingleL").onclick = function() {
+  totalScore = totalScore - singleLutz;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("edgedoubleL").onclick = function() {
+  totalScore = totalScore - singleLutz + edoubleL;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("edgetripleL").onclick = function() {
+  totalScore = totalScore - singleLutz + etripleL;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("edgequadL").onclick = function() {
+  totalScore = totalScore - singleLutz + equadL;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
