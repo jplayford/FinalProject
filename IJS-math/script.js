@@ -190,25 +190,25 @@ document.getElementById("fall").onclick = function() {
 };
 
 document.getElementById("edgesingleL").onclick = function() {
-  totalScore = totalScore - singleLutz;
+  totalScore = totalScore - singleLutz + esingleL;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("edgedoubleL").onclick = function() {
-  totalScore = totalScore - singleLutz + edoubleL;
+  totalScore = totalScore - doubleLutz + edoubleL;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("edgetripleL").onclick = function() {
-  totalScore = totalScore - singleLutz + etripleL;
+  totalScore = totalScore - tripleLutz + etripleL;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("edgequadL").onclick = function() {
-  totalScore = totalScore - singleLutz + equadL;
+  totalScore = totalScore - quadLutz + equadL;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
