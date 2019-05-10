@@ -25,10 +25,10 @@ var quadFlip = 11;
 var quadLutz = 11.5;
 var quadAxel = 12.5;
 var totalScore = 0;
-var esingleL = 0.4;
-var edoubleL = 1.58;
-var etripleL = 4.43;
-var equadL = 8.63;
+var esingleLutz = 0.4;
+var edoubleLutz = 1.58;
+var etripleLutz = 4.43;
+var equadLutz = 8.63;
 var fall = 1;
 //Creating return values for all buttons
 
