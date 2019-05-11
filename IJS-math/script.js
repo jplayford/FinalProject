@@ -24,15 +24,51 @@ var quadLoop = 10.5;
 var quadFlip = 11;
 var quadLutz = 11.5;
 var quadAxel = 12.5;
+
+//total score variable
 var totalScore = 0;
+
+//variables for edge buttons + deductions(fall)
 var esingleLutz = 0.4;
 var edoubleLutz = 1.58;
 var etripleLutz = 4.43;
 var equadLutz = 8.63;
 var fall = 1;
-//Creating return values for all buttons
+
+//spin Values
+var ubase = 1;
+var u1 = 1.2;
+var u2 = 1.5;
+var u3 = 1.9;
+var u4 = 2.4;
+var lbase 1.2;
+var l1 = 1.5;
+var l2 = 1.9;
+var l3 = 2.4;
+var l4 = 2.7;
+var cbase = 1.1;
+var c1 = 1.4;
+var c2 = 1.8;
+var c3 = 2.3;
+var c4 = 2.6;
+var sbase = 1.1;
+var s1 = 1.3;
+var s2 = 1.6;
+var s3 = 2.1;
+var s4 = 2.5;
+var combobase = 1.5;
+var combo1 = 1.7;
+var combo2 = 2;
+var combo3 = 2.5;
+var combo4 = 3;
+var ccospbase = 1.7;
+var ccosp1 = 2;
+var ccosp2 = 2.5;
+var ccosp3 = 3;
+var ccosp4 = 3.5;
 
 
+//creating .onclick functions for jump buttons
 document.getElementById("singleSalchow").onclick = function() {
   totalScore = totalScore + singleSal;
   console.log(totalScore);
@@ -183,6 +219,9 @@ document.getElementById("quadAxel").onclick = function() {
   document.getElementById('result').innerHTML = totalScore;
 };
 
+
+//deductions and edge call .onclick functions
+
 document.getElementById("fall").onclick = function() {
   totalScore = totalScore - fall;
   console.log(totalScore);
@@ -212,6 +251,9 @@ document.getElementById("edgequadL").onclick = function() {
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
+
+
+//displays total score on the html page
 
 function finalScore() {
   document.getElementById('totalScore').innerHTML = totalScore;

@@ -1,17 +1,19 @@
+/*creating basic HTML color and formatting title */
 html{
   background-color: rgb(230, 224, 255);
-}
-
-body {
 }
 
 #title{
   background: linear-gradient(to right,rgb(255, 107, 247), rgb(136, 45, 255));
   text-align: center;
 }
+
+/* positioning the tables side by side using divs, classes, and the float properties */
 .floatLeft  {width: 50%; float: left; }
 .floatRight {width: 50%; float: right; }
 .container { overflow: hidden; }
+
+/* changing the font in the table headers to cursive and formatting buttons within tables */
 table, th, tr, td{
   border-collapse: collapse;
   font-family:cursive;
@@ -25,16 +27,7 @@ table, th, tr, td{
   margin-right: 5%;
 }
 
-#totalanswer{
-
-}
-#fall{
-  font-family: cursive;
-}
-
-#edge{
-  font-family: cursive;
-}
+/* changing font for all jump buttons to cursive */
 
 #singleSalchow{
   font-family: cursive;
@@ -148,6 +141,8 @@ table, th, tr, td{
   font-family: cursive;
 }
 
+
+/* changin font within edge and deduction table */
 #edgesingleL{
   font-family: cursive;
 }
@@ -161,5 +156,163 @@ table, th, tr, td{
 }
 
 #edgequadL{
+  font-family: cursive;
+}
+
+#edgequadL{
+  font-family: cursive;
+}
+
+#fall{
+  font-family: cursive;
+}
+
+#edge{
+  font-family: cursive;
+}
+/*changing font in step sequence and choreo step sequence table */
+#stsqb{
+  font-family: cursive;
+}
+
+#stsq1{
+  font-family: cursive;
+}
+
+#stsq2{
+  font-family: cursive;
+}
+
+#stsq3{
+  font-family: cursive;
+}
+
+#stsq4{
+  font-family: cursive;
+}
+
+#chsp{
+  font-family: cursive;
+}
+
+/* changing font in spin table */
+
+#ub{
+  font-family: cursive;
+}
+
+#u1{
+  font-family: cursive;
+}
+
+#u2{
+  font-family: cursive;
+}
+
+#u3{
+  font-family: cursive;
+}
+
+#u4{
+  font-family: cursive;
+}
+
+#cb{
+  font-family: cursive;
+}
+
+#c1{
+  font-family: cursive;
+}
+
+#c2{
+  font-family: cursive;
+}
+
+#c3{
+  font-family: cursive;
+}
+
+#c4{
+  font-family: cursive;
+}
+
+#sb{
+  font-family: cursive;
+}
+
+#s1{
+  font-family: cursive;
+}
+
+#s2{
+  font-family: cursive;
+}
+
+#s3{
+  font-family: cursive;
+}
+
+#s4{
+  font-family: cursive;
+}
+
+#lb{
+  font-family: cursive;
+}
+
+#l1{
+  font-family: cursive;
+}
+
+#l2{
+  font-family: cursive;
+}
+
+#l3{
+  font-family: cursive;
+}
+
+#l4{
+  font-family: cursive;
+}
+
+#cob{
+  font-family: cursive;
+}
+
+#co1{
+  font-family: cursive;
+}
+
+#co2{
+  font-family: cursive;
+}
+
+#co3{
+  font-family: cursive;
+}
+
+#co4{
+  font-family: cursive;
+}
+
+#ccob{
+  font-family: cursive;
+}
+
+#cco1{
+  font-family: cursive;
+}
+
+#cco2{
+  font-family: cursive;
+}
+
+#cco3{
+  font-family: cursive;
+}
+
+#cco4{
   font-family: cursive;
 }
