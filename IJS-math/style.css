@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to right,rgb(255, 107, 247), rgb(136, 45, 255));
   text-align: center;
 }
-.floatLeft { width: 50%; float: left; }
+.floatLeft  {width: 50%; float: left; }
 .floatRight {width: 50%; float: right; }
 .container { overflow: hidden; }
 table, th, tr, td{
