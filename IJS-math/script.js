@@ -252,6 +252,14 @@ document.getElementById("edgequadL").onclick = function() {
   document.getElementById('result').innerHTML = totalScore;
 };
 
+//spins .onclick functions
+
+document.getElementById("ub").onclick = function() {
+  totalScore = totalScore + ubase;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
 
 //displays total score on the html page
 
