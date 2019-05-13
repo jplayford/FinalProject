@@ -9,8 +9,9 @@ html{
 }
 
 /* positioning the tables side by side using divs, classes, and the float properties */
-.floatLeft  {width: 50%; float: left; }
+.floatLeft  {width: 50%; float: left; padding-left: 50px;}
 .floatRight {width: 50%; float: right; }
+.center {padding-left: 180px;}
 .container { overflow: hidden; }
 
 /* changing the font in the table headers to cursive and formatting buttons within tables */
