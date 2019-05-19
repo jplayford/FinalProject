@@ -33,10 +33,10 @@ var esingleLutz = 0.4;
 var edoubleLutz = 1.58;
 var etripleLutz = 4.43;
 var equadLutz = 8.63;
-var fall = 1;
+var fall = 1.0;
 
 //spin Values
-var ubase = 1;
+var ubase = 1.0;
 var u1 = 1.2;
 var u2 = 1.5;
 var u3 = 1.9;
@@ -60,13 +60,20 @@ var combobase = 1.5;
 var combo1 = 1.7;
 var combo2 = 2;
 var combo3 = 2.5;
-var combo4 = 3;
+var combo4 = 3.0;
 var ccospbase = 1.7;
-var ccosp1 = 2;
+var ccosp1 = 2.0;
 var ccosp2 = 2.5;
-var ccosp3 = 3;
+var ccosp3 = 3.0;
 var ccosp4 = 3.5;
 
+//adding step sequence and choreo step Values
+var stepsqb = 1.5;
+var stepsq1 = 1.8;
+var stepsq2 = 2.6;
+var stepsq3 = 3.3;
+var stepsq4 = 3.9;
+var chstep = 3.0;
 
 //creating .onclick functions for jump buttons
 document.getElementById("singleSalchow").onclick = function() {
@@ -229,25 +236,25 @@ document.getElementById("fall").onclick = function() {
 };
 
 document.getElementById("edgesingleL").onclick = function() {
-  totalScore = totalScore - singleLutz + esingleL;
+  totalScore = totalScore - singleLutz + esingleLutz;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("edgedoubleL").onclick = function() {
-  totalScore = totalScore - doubleLutz + edoubleL;
+  totalScore = totalScore - doubleLutz + edoubleLutz;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("edgetripleL").onclick = function() {
-  totalScore = totalScore - tripleLutz + etripleL;
+  totalScore = totalScore - tripleLutz + etripleLutz;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
 
 document.getElementById("edgequadL").onclick = function() {
-  totalScore = totalScore - quadLutz + equadL;
+  totalScore = totalScore - quadLutz + equadLutz;
   console.log(totalScore);
   document.getElementById('result').innerHTML = totalScore;
 };
@@ -434,7 +441,42 @@ document.getElementById("cco4").onclick = function() {
   document.getElementById('result').innerHTML = totalScore;
 };
 
+//adding step sequence and choreo step buttons
+document.getElementById("stsqb").onclick = function() {
+  totalScore = totalScore + stepsqb;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
 
+document.getElementById("stsq1").onclick = function() {
+  totalScore = totalScore + stepsq1;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("stsq2").onclick = function() {
+  totalScore = totalScore + stepsq2;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("stsq3").onclick = function() {
+    totalScore = totalScore + stepsq3;
+    console.log(totalScore);
+    document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("stsq4").onclick = function() {
+    totalScore = totalScore + stepsq4;
+    console.log(totalScore);
+    document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("chsp").onclick = function() {
+    totalScore = totalScore + chstep;
+    console.log(totalScore);
+    document.getElementById('result').innerHTML = totalScore;
+};
 
 //displays total score on the html page
 function finalScore() {
