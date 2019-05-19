@@ -41,7 +41,7 @@ var u1 = 1.2;
 var u2 = 1.5;
 var u3 = 1.9;
 var u4 = 2.4;
-var lbase 1.2;
+var lbase = 1.2;
 var l1 = 1.5;
 var l2 = 1.9;
 var l3 = 2.4;
