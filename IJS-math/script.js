@@ -260,9 +260,183 @@ document.getElementById("ub").onclick = function() {
   document.getElementById('result').innerHTML = totalScore;
 };
 
+document.getElementById("u1").onclick = function() {
+  totalScore = totalScore + u1;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("u2").onclick = function() {
+  totalScore = totalScore + u2;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("u3").onclick = function() {
+  totalScore = totalScore + u3;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("u4").onclick = function() {
+  totalScore = totalScore + u4;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("lb").onclick = function() {
+  totalScore = totalScore + lbase;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("l1").onclick = function() {
+  totalScore = totalScore + l1;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("l2").onclick = function() {
+  totalScore = totalScore + l2;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("l3").onclick = function() {
+  totalScore = totalScore + l3;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("l4").onclick = function() {
+  totalScore = totalScore + l4;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("cb").onclick = function() {
+  totalScore = totalScore + cbase;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("c1").onclick = function() {
+  totalScore = totalScore + c1;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("c2").onclick = function() {
+  totalScore = totalScore + c2;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("c3").onclick = function() {
+  totalScore = totalScore + c3;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("c4").onclick = function() {
+  totalScore = totalScore + c4;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("sb").onclick = function() {
+  totalScore = totalScore + sbase;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("s1").onclick = function() {
+  totalScore = totalScore + s1;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("s2").onclick = function() {
+  totalScore = totalScore + s2;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("s3").onclick = function() {
+  totalScore = totalScore + s3;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("s4").onclick = function() {
+  totalScore = totalScore + s4;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("cob").onclick = function() {
+  totalScore = totalScore + combobase;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("co1").onclick = function() {
+  totalScore = totalScore + combo1;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("co2").onclick = function() {
+  totalScore = totalScore + combo2;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("co3").onclick = function() {
+  totalScore = totalScore + combo3;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("co4").onclick = function() {
+  totalScore = totalScore + combo4;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("ccob").onclick = function() {
+  totalScore = totalScore + ccospbase;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("cco1").onclick = function() {
+  totalScore = totalScore + ccosp1;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("cco2").onclick = function() {
+  totalScore = totalScore + ccosp2;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("cco3").onclick = function() {
+  totalScore = totalScore + ccosp3;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+document.getElementById("cco4").onclick = function() {
+  totalScore = totalScore + ccosp4;
+  console.log(totalScore);
+  document.getElementById('result').innerHTML = totalScore;
+};
+
+
 
 //displays total score on the html page
-
 function finalScore() {
   document.getElementById('totalScore').innerHTML = totalScore;
 }
